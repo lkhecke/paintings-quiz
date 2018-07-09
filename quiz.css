@@ -1,0 +1,123 @@
+@font-face { font-family: Royaland; src: url('fonts/Royaland Clean (Demo Version).otf');}
+@font-face { font-family: Renner; src: url('fonts/Renner_ 400 Book.ttf');}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #f8f6f0;
+  color: black;
+  font-family: 'Renner*', sans-serif;
+  font-size: 1.25rem;
+  line-height: 150%;
+  text-align: left;
+  line-height: 20px;
+}
+ 
+header {
+  background-color: #f8f6f0;
+  font-family: 'Renner*', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  padding: 5px;
+  color:black;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Royaland', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 5px;
+}
+
+h2 { 
+  font-weight: 100;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.artist {
+  font-weight: 600;
+  margin-top: 100px;
+  font-size: 35px;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+h3 {
+  font-weight: 300;
+  line-height: 25px;
+  font-size: 25px;
+}
+
+h4 {
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 10px;
+}
+
+.portrait {
+  width:325px;
+  height:450px;
+}
+
+.landscape {
+  width:550px;
+  height:425px;
+}
+
+.wide-landscape {
+  width:525px;
+  height:300px;
+}
+    
+div {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left-half {
+  flex: 1.5;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;  
+}
+
+.right-half {
+  flex: 1;
+  padding: 1.5rem;
+  align-items: left;
+  justify-content: left;
+}
+
+button {
+  font-size: 15px;
+  font-weight: 100;
+  background-color: rosybrown;
+  color: #fff;
+  border: 0px;
+  border-radius: 2px;
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+  
+  button:hover {
+    background-color:#c69f9f;
+  }
+  
+  button:focus {
+    outline:0;
+  }
+
+
+
+
